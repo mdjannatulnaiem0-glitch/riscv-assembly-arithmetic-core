@@ -1,8 +1,9 @@
-the main subject create a chip risc v 
+Coree main subject create a chip risc v 
 
 # riscv-assembly-arithmetic-core
 A lightweight RISC-V assembly core executing basic arithmetic operations (addition and subtraction). Designed to demonstrate low-level register manipulation, memory-mapped I/O concepts, and data hazard prevention in computer architecture.
 
+N 
 # RISC-V Assembly Arithmetic Core
 
 A high-performance, lightweight arithmetic unit implemented purely in **RISC-V Assembly Language (RV32I ISA)**. This project serves as a foundational microarchitecture blueprint, demonstrating how processors handle memory allocation, register tracking, and low-level arithmetic execution.
