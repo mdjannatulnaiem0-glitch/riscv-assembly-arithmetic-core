@@ -3,7 +3,7 @@ Coree main subject create a chip risc v
 # riscv-assembly-arithmetic-core
 A lightweight RISC-V assembly core executing basic arithmetic operations (addition and subtraction). Designed to demonstrate low-level register manipulation, memory-mapped I/O concepts, and data hazard prevention in computer architecture.
 
-N 
+
 # RISC-V Assembly Arithmetic Core
 
 A high-performance, lightweight arithmetic unit implemented purely in **RISC-V Assembly Language (RV32I ISA)**. This project serves as a foundational microarchitecture blueprint, demonstrating how processors handle memory allocation, register tracking, and low-level arithmetic execution.
@@ -15,7 +15,7 @@ A high-performance, lightweight arithmetic unit implemented purely in **RISC-V A
 
 ##  The Assembly Code (`main.s`)
 
-```assembly
+`assembly
 .data
     # Allocating 32-bit words in memory for source operands and results
     num1:    .word 15       # Operand A
@@ -56,7 +56,7 @@ main:
     ecall                  # System call to terminate execution cleanly
 ```
 
-## 💻 How to Simulate and Verify
+##  How to Simulate and Verify
 To verify the instruction pipeline and register state changes, you can use any standard RISC-V simulator.
 
 1. Copy the code block from `main.s`.
