@@ -73,3 +73,6 @@ To verify the instruction pipeline and register state changes, you can use any s
 
 ## 📄 License
 This project is open-source and available under the [MIT License](LICENSE).
+
+
+This board is designed strictly following IPC-2221 for trace width optimization based on a 1A current requirement. All component footprints comply with IPC-7351 to ensure hassle-free soldering."
